@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" /-->
+    <Button
+        android:id="@+id/aboutme"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:textColor="@color/colorTabPrimary"
+        android:layout_width="200dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:paddingTop="0dp"
+        android:drawableLeft="@drawable/aboutme"
+        android:paddingLeft="40dp"
+        android:paddingBottom="0dp"
+        android:text="@string/title_aboutMe"/>
+    <!--ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_above="@id/aboutme"/-->
+    <Button
+        android:id="@+id/task2"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:textColor="@color/colorTabPrimary"
+        android:layout_width="200dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/task2"
+        android:paddingLeft="40dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutme"
+        android:text="@string/title_task2"/>
+
+    <Button
+        android:id="@+id/task3"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:textColor="@color/colorTabPrimary"
+        android:drawableLeft="@drawable/task3"
+        android:paddingLeft="40dp"
+        android:layout_width="200dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task2"
+        android:text="@string/title_task3"/>
+
+</RelativeLayout>

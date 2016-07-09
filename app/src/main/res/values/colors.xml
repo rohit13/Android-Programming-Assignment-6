@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#FF3F80</color>
+    <color name="colorTextPrimary">#0277BD</color>
+    <color name="colorToolBar">#0277BD</color>
+    <color name="textToolBar">#ffffff</color>
+    <color name="indigo">#3F50B4</color>
+    <color name="pink">#ff69b4</color>
+    <color name="colorTabPrimary">#ffffff</color>
+    <color name="colorSelectTabPrimary">#000000</color>
+    <color name="colorUnderline">#ff69b4</color>
+    <color name="bgcolor">#E0E0E0</color>
+    <color name="buttonBg">#FF3F80</color>
+</resources>
